@@ -11,7 +11,9 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start"
   },
-  "keywords": [],
+  "keywords": [
+  "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -23,5 +25,8 @@
     "nodemon": "^2.0.4",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
+  },
+  "engines": {
+    "node": "16.19.1"
   }
 }
